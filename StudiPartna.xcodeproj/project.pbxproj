@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C49C2A590CBA61C0295FBC0 /* Pods_StudiPartna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DB028458C03F780FE7DB3C /* Pods_StudiPartna.framework */; };
+		8403D410206FE754005821C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403D40F206FE754005821C9 /* AppDelegate.swift */; };
+		8403D412206FE754005821C9 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403D411206FE754005821C9 /* QuestionsViewController.swift */; };
+		8403D415206FE754005821C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8403D413206FE754005821C9 /* Main.storyboard */; };
+		8403D417206FE756005821C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8403D416206FE756005821C9 /* Assets.xcassets */; };
+		8403D41A206FE756005821C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8403D418206FE756005821C9 /* LaunchScreen.storyboard */; };
+		8403D427206FF0BA005821C9 /* SubjectsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403D426206FF0BA005821C9 /* SubjectsEnum.swift */; };
+		8403D429206FF357005821C9 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403D428206FF357005821C9 /* Questions.swift */; };
+		8403D42B20702323005821C9 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403D42A20702323005821C9 /* Answer.swift */; };
+		84539167207D82DC000BBB21 /* MLearningQuestions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84539166207D82DC000BBB21 /* MLearningQuestions.rtf */; };
+		84539169207FB1C5000BBB21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84539168207FB1C5000BBB21 /* GoogleService-Info.plist */; };
+		8453916B207FB8C5000BBB21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453916A207FB8C5000BBB21 /* LoginViewController.swift */; };
+		8453916D2080ED22000BBB21 /* CreateQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453916C2080ED22000BBB21 /* CreateQuestionViewController.swift */; };
+		8453916F208191C6000BBB21 /* StudiPartNaLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8453916E208191C6000BBB21 /* StudiPartNaLogo.jpeg */; };
+		8453917120824E35000BBB21 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453917020824E35000BBB21 /* Question.swift */; };
+		84A98D8E2083CD3D00D56869 /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D8C2083CD3D00D56869 /* AnswerTableViewCell.swift */; };
+		84A98D8F2083CD3D00D56869 /* AnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A98D8D2083CD3D00D56869 /* AnswerTableViewCell.xib */; };
+		84A98D92208400F600D56869 /* QuestionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D91208400F600D56869 /* QuestionInfoViewController.swift */; };
+		84A98D942084DAD800D56869 /* SubjectsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D932084DAD800D56869 /* SubjectsMainViewController.swift */; };
+		84A98D962084E04400D56869 /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D952084E04400D56869 /* Subjects.swift */; };
+		84A98D982084E55A00D56869 /* PracticeExamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D972084E55A00D56869 /* PracticeExamsViewController.swift */; };
+		84A98D9B2084E5F300D56869 /* ExamEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D9A2084E5F300D56869 /* ExamEnum.swift */; };
+		84A98D9D2084E69D00D56869 /* Exams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98D9C2084E69D00D56869 /* Exams.swift */; };
+		84A98DA52086A45600D56869 /* PlayAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98DA42086A45600D56869 /* PlayAddViewController.swift */; };
+		84A98DA72086DC4F00D56869 /* MyQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A98DA62086DC4F00D56869 /* MyQuestionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14C23B66216E56D1E57C76F0 /* Pods-StudiPartna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudiPartna.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudiPartna/Pods-StudiPartna.release.xcconfig"; sourceTree = "<group>"; };
+		54DB028458C03F780FE7DB3C /* Pods_StudiPartna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudiPartna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403D40C206FE754005821C9 /* StudiPartna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiPartna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403D40F206FE754005821C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8403D411206FE754005821C9 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		8403D414206FE754005821C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8403D416206FE756005821C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8403D419206FE756005821C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8403D41B206FE756005821C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8403D426206FF0BA005821C9 /* SubjectsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsEnum.swift; sourceTree = "<group>"; };
+		8403D428206FF357005821C9 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		8403D42A20702323005821C9 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		84539166207D82DC000BBB21 /* MLearningQuestions.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MLearningQuestions.rtf; sourceTree = "<group>"; };
+		84539168207FB1C5000BBB21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8453916A207FB8C5000BBB21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8453916C2080ED22000BBB21 /* CreateQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuestionViewController.swift; sourceTree = "<group>"; };
+		8453916E208191C6000BBB21 /* StudiPartNaLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StudiPartNaLogo.jpeg; sourceTree = "<group>"; };
+		8453917020824E35000BBB21 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		84A98D8C2083CD3D00D56869 /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		84A98D8D2083CD3D00D56869 /* AnswerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerTableViewCell.xib; sourceTree = "<group>"; };
+		84A98D91208400F600D56869 /* QuestionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionInfoViewController.swift; sourceTree = "<group>"; };
+		84A98D932084DAD800D56869 /* SubjectsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsMainViewController.swift; sourceTree = "<group>"; };
+		84A98D952084E04400D56869 /* Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
+		84A98D972084E55A00D56869 /* PracticeExamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeExamsViewController.swift; sourceTree = "<group>"; };
+		84A98D9A2084E5F300D56869 /* ExamEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExamEnum.swift; path = Enums/ExamEnum.swift; sourceTree = "<group>"; };
+		84A98D9C2084E69D00D56869 /* Exams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exams.swift; sourceTree = "<group>"; };
+		84A98DA42086A45600D56869 /* PlayAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAddViewController.swift; sourceTree = "<group>"; };
+		84A98DA62086DC4F00D56869 /* MyQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQuestionViewController.swift; sourceTree = "<group>"; };
+		860180A96082DE9E498EDCC2 /* Pods-StudiPartna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudiPartna.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudiPartna/Pods-StudiPartna.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8403D409206FE754005821C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C49C2A590CBA61C0295FBC0 /* Pods_StudiPartna.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9C51837F099256428E87AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54DB028458C03F780FE7DB3C /* Pods_StudiPartna.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8403D403206FE754005821C9 = {
+			isa = PBXGroup;
+			children = (
+				8403D40E206FE754005821C9 /* StudiPartna */,
+				8403D40D206FE754005821C9 /* Products */,
+				B2AC9B702AA3DCA0044F8562 /* Pods */,
+				0C9C51837F099256428E87AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8403D40D206FE754005821C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8403D40C206FE754005821C9 /* StudiPartna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8403D40E206FE754005821C9 /* StudiPartna */ = {
+			isa = PBXGroup;
+			children = (
+				8403D423206FE785005821C9 /* controller */,
+				8403D422206FE77C005821C9 /* view */,
+				8403D421206FE774005821C9 /* model */,
+				8403D416206FE756005821C9 /* Assets.xcassets */,
+				8453916E208191C6000BBB21 /* StudiPartNaLogo.jpeg */,
+				8403D418206FE756005821C9 /* LaunchScreen.storyboard */,
+				84539168207FB1C5000BBB21 /* GoogleService-Info.plist */,
+				8403D41B206FE756005821C9 /* Info.plist */,
+			);
+			path = StudiPartna;
+			sourceTree = "<group>";
+		};
+		8403D421206FE774005821C9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8403D426206FF0BA005821C9 /* SubjectsEnum.swift */,
+				84A98D9A2084E5F300D56869 /* ExamEnum.swift */,
+				84A98D992084E5C800D56869 /* Enums */,
+				8453917020824E35000BBB21 /* Question.swift */,
+				8403D428206FF357005821C9 /* Questions.swift */,
+				8403D42A20702323005821C9 /* Answer.swift */,
+				84539166207D82DC000BBB21 /* MLearningQuestions.rtf */,
+				84A98D952084E04400D56869 /* Subjects.swift */,
+				84A98D9C2084E69D00D56869 /* Exams.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8403D422206FE77C005821C9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				84A98D902083CD6B00D56869 /* Custom Cell */,
+				8403D413206FE754005821C9 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8403D423206FE785005821C9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8403D40F206FE754005821C9 /* AppDelegate.swift */,
+				8403D411206FE754005821C9 /* QuestionsViewController.swift */,
+				8453916A207FB8C5000BBB21 /* LoginViewController.swift */,
+				8453916C2080ED22000BBB21 /* CreateQuestionViewController.swift */,
+				84A98D91208400F600D56869 /* QuestionInfoViewController.swift */,
+				84A98D932084DAD800D56869 /* SubjectsMainViewController.swift */,
+				84A98D972084E55A00D56869 /* PracticeExamsViewController.swift */,
+				84A98DA42086A45600D56869 /* PlayAddViewController.swift */,
+				84A98DA62086DC4F00D56869 /* MyQuestionViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		84A98D902083CD6B00D56869 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84A98D8C2083CD3D00D56869 /* AnswerTableViewCell.swift */,
+				84A98D8D2083CD3D00D56869 /* AnswerTableViewCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		84A98D992084E5C800D56869 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B2AC9B702AA3DCA0044F8562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				860180A96082DE9E498EDCC2 /* Pods-StudiPartna.debug.xcconfig */,
+				14C23B66216E56D1E57C76F0 /* Pods-StudiPartna.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8403D40B206FE754005821C9 /* StudiPartna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8403D41E206FE756005821C9 /* Build configuration list for PBXNativeTarget "StudiPartna" */;
+			buildPhases = (
+				AA2F282685D6ECF1F0997B2A /* [CP] Check Pods Manifest.lock */,
+				8403D408206FE754005821C9 /* Sources */,
+				8403D409206FE754005821C9 /* Frameworks */,
+				8403D40A206FE754005821C9 /* Resources */,
+				7F4449AE64FA3824D8D8E809 /* [CP] Embed Pods Frameworks */,
+				806F059BC9E63F000139EF2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudiPartna;
+			productName = StudiPartna;
+			productReference = 8403D40C206FE754005821C9 /* StudiPartna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8403D404206FE754005821C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Gary Mullings";
+				TargetAttributes = {
+					8403D40B206FE754005821C9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 8403D407206FE754005821C9 /* Build configuration list for PBXProject "StudiPartna" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8403D403206FE754005821C9;
+			productRefGroup = 8403D40D206FE754005821C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8403D40B206FE754005821C9 /* StudiPartna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8403D40A206FE754005821C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84539167207D82DC000BBB21 /* MLearningQuestions.rtf in Resources */,
+				8403D41A206FE756005821C9 /* LaunchScreen.storyboard in Resources */,
+				8453916F208191C6000BBB21 /* StudiPartNaLogo.jpeg in Resources */,
+				84539169207FB1C5000BBB21 /* GoogleService-Info.plist in Resources */,
+				84A98D8F2083CD3D00D56869 /* AnswerTableViewCell.xib in Resources */,
+				8403D417206FE756005821C9 /* Assets.xcassets in Resources */,
+				8403D415206FE754005821C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F4449AE64FA3824D8D8E809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StudiPartna/Pods-StudiPartna-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudiPartna/Pods-StudiPartna-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		806F059BC9E63F000139EF2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudiPartna/Pods-StudiPartna-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2F282685D6ECF1F0997B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudiPartna-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8403D408206FE754005821C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A98D962084E04400D56869 /* Subjects.swift in Sources */,
+				8453916D2080ED22000BBB21 /* CreateQuestionViewController.swift in Sources */,
+				8453916B207FB8C5000BBB21 /* LoginViewController.swift in Sources */,
+				84A98D8E2083CD3D00D56869 /* AnswerTableViewCell.swift in Sources */,
+				84A98DA52086A45600D56869 /* PlayAddViewController.swift in Sources */,
+				8403D427206FF0BA005821C9 /* SubjectsEnum.swift in Sources */,
+				84A98D982084E55A00D56869 /* PracticeExamsViewController.swift in Sources */,
+				8403D412206FE754005821C9 /* QuestionsViewController.swift in Sources */,
+				84A98D92208400F600D56869 /* QuestionInfoViewController.swift in Sources */,
+				8403D42B20702323005821C9 /* Answer.swift in Sources */,
+				8453917120824E35000BBB21 /* Question.swift in Sources */,
+				84A98D9B2084E5F300D56869 /* ExamEnum.swift in Sources */,
+				84A98DA72086DC4F00D56869 /* MyQuestionViewController.swift in Sources */,
+				84A98D942084DAD800D56869 /* SubjectsMainViewController.swift in Sources */,
+				84A98D9D2084E69D00D56869 /* Exams.swift in Sources */,
+				8403D429206FF357005821C9 /* Questions.swift in Sources */,
+				8403D410206FE754005821C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8403D413206FE754005821C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8403D414206FE754005821C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8403D418206FE756005821C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8403D419206FE756005821C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8403D41C206FE756005821C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8403D41D206FE756005821C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8403D41F206FE756005821C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860180A96082DE9E498EDCC2 /* Pods-StudiPartna.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B4E4J32TD;
+				INFOPLIST_FILE = StudiPartna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diajidata.StudiPartna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8403D420206FE756005821C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C23B66216E56D1E57C76F0 /* Pods-StudiPartna.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B4E4J32TD;
+				INFOPLIST_FILE = StudiPartna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diajidata.StudiPartna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8403D407206FE754005821C9 /* Build configuration list for PBXProject "StudiPartna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8403D41C206FE756005821C9 /* Debug */,
+				8403D41D206FE756005821C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8403D41E206FE756005821C9 /* Build configuration list for PBXNativeTarget "StudiPartna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8403D41F206FE756005821C9 /* Debug */,
+				8403D420206FE756005821C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8403D404206FE754005821C9 /* Project object */;
+}
